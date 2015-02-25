@@ -1,0 +1,699 @@
+@CHARSET "ISO-8859-1";
+@font-face {
+	font-family: 'ecoicon';
+	src:url('../fonts/ecoicons/ecoicon.eot');
+	src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ecoicons/ecoicon.woff') format('woff'),
+		url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
+		url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.hi-icon-mobile:before {
+	content: "\e009";
+}
+
+.hi-icon-screen:before {
+	content: "\e00a";
+}
+
+.hi-icon-earth:before {
+	content: "\e002";
+}
+
+.hi-icon-support:before {
+	content: "\e000";
+}
+
+.hi-icon-locked:before {
+	content: "\e001";
+}
+
+.hi-icon-cog:before {
+	content: "\e003";
+}
+
+.hi-icon-clock:before {
+	content: "\e004";
+}
+
+.hi-icon-videos:before {
+	content: "\e005";
+}
+
+.hi-icon-list:before {
+	content: "\e006";
+}
+
+.hi-icon-refresh:before {
+	content: "\e007";
+}
+
+.hi-icon-images:before {
+	content: "\e008";
+}
+
+.hi-icon-pencil:before {
+	content: "\e00b";
+}
+
+.hi-icon-link:before {
+	content: "\e00c";
+}
+
+.hi-icon-mail:before {
+	content: "\e00d";
+}
+
+.hi-icon-location:before {
+	content: "\e00e";
+}
+
+.hi-icon-archive:before {
+	content: "\e00f";
+}
+
+.hi-icon-chat:before {
+	content: "\e010";
+}
+
+.hi-icon-bookmark:before {
+	content: "\e011";
+}
+
+.hi-icon-user:before {
+	content: "\e012";
+}
+
+.hi-icon-contract:before {
+	content: "\e013";
+}
+
+.hi-icon-star:before {
+	content: "\e014";
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	main, nav, section, summary {
+	display: block
+}
+
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline
+}
+
+audio:not ([controls] ){
+	display: none;
+	height: 0
+}
+
+
+a {
+	background: transparent
+}
+
+a:active, a:hover {
+	outline: 0
+}
+
+abbr[title] {
+	border-bottom: 1px dotted
+}
+
+b, strong {
+	font-weight: bold
+}
+
+dfn {
+	font-style: italic
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0
+}
+
+mark {
+	background: #ff0;
+	color: #000
+}
+
+small {
+	font-size: 80%
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sup {
+	top: -0.5em
+}
+
+sub {
+	bottom: -0.25em
+}
+
+img {
+	border: 0
+}
+
+svg:not (:root ){
+	overflow: hidden
+}
+
+figure {
+	margin: 1em 40px
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0
+}
+
+pre {
+	overflow: auto
+}
+
+input, select, textarea, button {
+	font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif,
+		"Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+body {
+	min-width: 1020px;
+	font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif,
+		"Segoe UI Emoji", "Segoe UI Symbol";
+	color: #333;
+	background-color: #fff
+}
+
+a {
+	color: #4183c4;
+	text-decoration: none
+}
+
+
+hr, .rule {
+	height: 0;
+	margin: 15px 0;
+	overflow: hidden;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ddd
+}
+
+hr:before, .rule:before {
+	display: table;
+	content: ""
+}
+
+hr:after, .rule:after {
+	display: table;
+	clear: both;
+	content: ""
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 1.1
+}
+
+h1 {
+	font-size: 30px
+}
+
+h2 {
+	font-size: 21px
+}
+
+h3 {
+	font-size: 16px
+}
+
+h4 {
+	font-size: 14px
+}
+
+h5 {
+	font-size: 12px
+}
+
+h6 {
+	font-size: 11px
+}
+
+small {
+	font-size: 90%
+}
+
+blockquote {
+	margin: 0
+}
+
+.lead {
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #555
+}
+
+.text-muted {
+	color: #999
+}
+
+.text-danger {
+	color: #bd2c00
+}
+
+.text-emphasized {
+	font-weight: bold;
+	color: #333
+}
+
+ul, ol {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0
+}
+
+ol ol, ul ol {
+	list-style-type: lower-roman
+}
+
+ul ul ol, ul ol ol, ol ul ol, ol ol ol {
+	list-style-type: lower-alpha
+}
+
+dd {
+	margin-left: 0
+}
+
+tt, code {
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px
+}
+
+pre {
+	margin-top: 0;
+	margin-bottom: 0;
+	font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace
+}
+
+
+.header-logged-out {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.header {
+padding-top: 15px;
+padding-bottom: 15px;
+min-width: 1000px;
+background-color: #f5f5f5;
+border-bottom: 1px solid #e5e5e5;
+}
+.home-containt{
+	min-width: 1000px;
+}
+
+.search-section {
+text-shadow: 0 1px 3px #222;
+background: #202021 url(../images/background.png) center repeat;
+padding-top: 80px;
+padding-bottom: 80px;
+position: relative;
+height : 200px;
+}
+.search-section .heading {
+margin-top: 0;
+padding-top: 10px;
+font-size: 40px;
+font-weight: normal;
+line-height: 1;
+color: #fff;
+letter-spacing: -1px;
+}
+
+.search-section input[type="text"]
+{
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+background-color: #fafafa;
+width: 600px;
+border: 1px solid #ccc;
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+color: #333;
+min-height: 34px;
+vertical-align: middle;
+margin-top: 20px;
+}	
+
+.menu-section{
+	text-align: center;
+	margin: 0 auto;
+	padding: 0.8em 0 1.1em;
+}
+
+.footer-home {
+padding-top: 10px;
+padding-bottom: 10px;
+min-width: 1000px;
+background-color: #edecec;
+border-top: 1px solid #d5cece;
+}
+
+.hi-icon {
+	display: inline-block;
+	margin: 15px 50px;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+}
+
+.hi-icon:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.hi-icon:before {
+	font-family: 'ecoicon';
+	speak: none;
+	font-size: 48px;
+	line-height: 110px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.hi-icon-effect-2 .hi-icon {
+	color: #eea303;
+	box-shadow: 0 0 0 3px #4183c4;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.hi-icon-effect-2 .hi-icon:after {
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+	background: #4183c4;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Effect 2a */
+.hi-icon-effect-2a .hi-icon:hover {
+	color: #4183c4;
+}
+
+.hi-icon-effect-2a .hi-icon:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+}
+
+.container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.container:before {
+	display: table;
+	content: ""
+}
+
+.container:after {
+	display: table;
+	clear: both;
+	content: ""
+}
+
+.clearfix:before {
+	display: table;
+	content: ""
+}
+
+.header-logo-wordmark {
+	position: relative;
+	float: left;
+	height: 26px;
+	margin-right: 15px;
+	color: #333
+}
+
+.header-logo-wordmark:hover {
+	color: #4183c4
+}
+
+.header-logo-wordmark .octicon-logo-github {
+	height: 26px;
+	font-size: 32px
+}
+
+.header-actions {
+	float: right;
+	margin-top: -3px;
+	margin-bottom: -3px
+}
+
+.header-actions .button {
+	margin-left: 5px
+}
+
+
+.clearfix:after {
+	display: table;
+	clear: both;
+	content: ""
+}
+
+/*Button CSS*/
+
+
+.button, .minibutton {
+	position: relative;
+	display: inline-block;
+	padding: 7px 12px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+	background-image: linear-gradient(#fcfcfc, #eee);
+	background-repeat: repeat-x;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-appearance: none
+}
+
+.button i, .minibutton i {
+	font-style: normal;
+	font-weight: 500;
+	opacity: 0.6
+}
+
+.button:focus, .minibutton:focus {
+	text-decoration: none;
+	border-color: #51a7e8;
+	outline: none;
+	box-shadow: 0 0 5px rgba(81, 167, 232, 0.5)
+}
+
+.button:hover, .button:active, .button.zeroclipboard-is-hover, .button.zeroclipboard-is-active,
+	.minibutton:hover, .minibutton:active, .minibutton.zeroclipboard-is-hover,
+	.minibutton.zeroclipboard-is-active {
+	text-decoration: none;
+	background-color: #ddd;
+	background-image: -webkit-linear-gradient(#eee, #ddd);
+	background-image: linear-gradient(#eee, #ddd);
+	background-repeat: repeat-x;
+	border-color: #ccc
+}
+
+.button:active, .button.selected, .button.selected:hover, .button.zeroclipboard-is-active,
+	.minibutton:active, .minibutton.selected, .minibutton.selected:hover,
+	.minibutton.zeroclipboard-is-active {
+	background-color: #dcdcdc;
+	background-image: none;
+	border-color: #b5b5b5;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15)
+}
+
+.button:disabled, .button:disabled:hover, .button.disabled, .button.disabled:hover,
+	.minibutton:disabled, .minibutton:disabled:hover, .minibutton.disabled,
+	.minibutton.disabled:hover {
+	color: rgba(102, 102, 102, 0.5);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+	cursor: default;
+	background-color: rgba(229, 229, 229, 0.5);
+	background-image: none;
+	border-color: rgba(197, 197, 197, 0.5);
+	box-shadow: none
+}
+
+.button.primary, .minibutton.primary {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #60b044;
+	background-image: -webkit-linear-gradient(#8add6d, #60b044);
+	background-image: linear-gradient(#8add6d, #60b044);
+	background-repeat: repeat-x;
+	border-color: #5ca941
+}
+
+.button.primary:hover, .minibutton.primary:hover {
+	color: #fff;
+	background-color: #569e3d;
+	background-image: -webkit-linear-gradient(#79d858, #569e3d);
+	background-image: linear-gradient(#79d858, #569e3d);
+	background-repeat: repeat-x;
+	border-color: #4a993e
+}
+
+.button.primary1, .minibutton.primary {
+	color: #fff;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:20px;
+	width:300px;
+	font-size:18px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #60b044;
+	background-image: -webkit-linear-gradient(#8add6d, #60b044);
+	background-image: linear-gradient(#8add6d, #60b044);
+	background-repeat: repeat-x;
+	border-color: #5ca941
+}
+
+.button.primary1:hover, .minibutton.primary:hover {
+	color: #fff;
+	background-color: #569e3d;
+	background-image: -webkit-linear-gradient(#79d858, #569e3d);
+	background-image: linear-gradient(#79d858, #569e3d);
+	background-repeat: repeat-x;
+	border-color: #4a993e
+}
+
+.button.primary:active, .button.primary.selected, .minibutton.primary:active,
+	.minibutton.primary.selected {
+	background-color: #569e3d;
+	background-image: none;
+	border-color: #418737
+}
+
+.button.primary:disabled, .button.primary:disabled:hover, .button.primary.disabled,
+	.button.primary.disabled:hover, .minibutton.primary:disabled,
+	.minibutton.primary:disabled:hover, .minibutton.primary.disabled,
+	.minibutton.primary.disabled:hover {
+	color: #fefefe;
+	text-shadow: 0 -1px 0 rgba(39, 39, 39, 0.25);
+	background-color: #add39f;
+	background-image: -webkit-linear-gradient(#c3ecb4, #add39f);
+	background-image: linear-gradient(#c3ecb4, #add39f);
+	background-repeat: repeat-x;
+	border-color: #b9dcac #b9dcac #a7c89b
+}
+
+.button.danger, .minibutton.danger {
+	color: #900
+}
+
+.button.danger:hover, .minibutton.danger:hover {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	background-color: #b33630;
+	background-image: -webkit-linear-gradient(#dc5f59, #b33630);
+	background-image: linear-gradient(#dc5f59, #b33630);
+	background-repeat: repeat-x;
+	border-color: #cd504a
+}
+
+.button.danger:active, .button.danger.selected, .minibutton.danger:active,
+	.minibutton.danger.selected {
+	color: #fff;
+	background-color: #b33630;
+	background-image: none;
+	border-color: #9f312c
+}
+
+.button.danger:disabled, .button.danger:disabled:hover, .button.danger.disabled,
+	.button.danger.disabled:hover, .minibutton.danger:disabled, .minibutton.danger:disabled:hover,
+	.minibutton.danger.disabled, .minibutton.danger.disabled:hover {
+	color: #cb7f7f;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+	background-color: #efefef;
+	background-image: -webkit-linear-gradient(#fefefe, #efefef);
+	background-image: linear-gradient(#fefefe, #efefef);
+	background-repeat: repeat-x;
+	border-color: #e1e1e1
+}
+
+.button.with-count, .minibutton.with-count {
+	float: left;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0
+}
+
+.button>.octicon, .minibutton>.octicon {
+	vertical-align: -1px
+}
+
+.button>.octicon-arrow-right, .minibutton>.octicon-arrow-right {
+	float: right;
+	margin-left: 5px
+}
+
+.minibutton>.octicon-arrow-right {
+	margin-top: 4px
+}
+
+.minibutton {
+	padding: 0 10px;
+	line-height: 24px
+}
+
