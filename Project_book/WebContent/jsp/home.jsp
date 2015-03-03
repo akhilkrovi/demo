@@ -30,7 +30,8 @@
 						New BOOKS</h1>
 					<input type="text" name="user[login]" class="textfield"
 						placeholder="Search Book By Author Name,Book Title,ISBN of Book"
-						autofocus><br> <a class="button primary1" href="#">Search
+						autofocus>
+						<br> <a class="button primary1" href="#">Search
 						Book</a>
 				</center>
 			</div>
